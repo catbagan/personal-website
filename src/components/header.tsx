@@ -1,12 +1,12 @@
-import { Link } from "gatsby"
-import React from "react"
-import './header.css'
+import { Link } from 'gatsby';
+import React from 'react';
+import './header.css';
 
-const Header = () => (
+const Header: React.FunctionComponent = () => (
   <header>
     <div className="container">
       <div className="logo">
-          <Link to="/">Daniel Catbagan</Link>
+        <Link to="/">Daniel Catbagan</Link>
       </div>
       <div className="navigation">
         <nav>
@@ -16,6 +16,6 @@ const Header = () => (
       </div>
     </div>
   </header>
-)
+);
 
-export default Header
+export default Header;

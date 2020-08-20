@@ -1,10 +1,10 @@
-import React from "react"
-import { Helmet } from "react-helmet"
+import React from 'react';
+import { Helmet } from 'react-helmet';
 
-import Header from "./header"
-import "./layout.css"
+import Header from './header';
+import './layout.css';
 
-const Layout = (props: any) => {
+const Layout: React.FunctionComponent = (props: { children: React.FunctionComponent }) => {
   return (
     <div className="layout">
       <Helmet>
@@ -13,7 +13,7 @@ const Layout = (props: any) => {
       <Header/>
       {props.children}
     </div>
-  )
-}
+  );
+};
 
-export default Layout
+export default Layout;

@@ -1,11 +1,11 @@
-import React from "react"
+import React from 'react';
 
-import Layout from "../components/layout"
+import Layout from '../components/layout';
 
-const NotFoundPage = () => (
+const NotFoundPage: React.FunctionComponent = () => (
   <Layout>
-    <h1 style={{textAlign: "center"}}>You must be McLost!</h1>
+    <h1 style={{textAlign: 'center'}}>You must be McLost!</h1>
   </Layout>
-)
+);
 
-export default NotFoundPage
+export default NotFoundPage;

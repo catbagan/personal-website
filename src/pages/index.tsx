@@ -1,12 +1,12 @@
-import React from "react"
+import React from 'react';
 
-import Layout from "../components/layout"
-import Greeting from "../components/greeting"
+import Layout from '../components/layout';
+import Greeting from '../components/greeting';
 
-const IndexPage = () => (
+const IndexPage: React.FunctionComponent = () => (
   <Layout>
     <Greeting />
   </Layout>
-)
+);
 
-export default IndexPage
+export default IndexPage;
